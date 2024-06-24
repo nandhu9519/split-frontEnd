@@ -1,0 +1,44 @@
+.bannerDiv{
+    background-image:url('https://assets.splitwise.com/assets/core/facets.png');
+    background-size: 1400px;
+    height: 610px;
+}
+.bannerHeading{
+    margin-top: 5rem;
+}
+.leftBanner{
+    float: left;
+    width: 400px;
+    font-size: 1.5rem;
+    color: #373B3F;
+    padding-left: 8%;
+}
+.rightBanner{
+    float: left;
+}
+#spanText{
+    color: #1CC29F;
+}
+#spanText:after {
+    content:"with your anyone.";
+    animation: spin 10s linear infinite;
+  }
+  @keyframes spin {
+    25% { content:"on trips."}
+    50% { content: "with housmates." }
+    75% { content: "with your partner."}
+  }
+.para{
+    font-size: 1.125rem;
+}
+.paraSignupDiv{
+    float: left;
+    background-color: #1CC29F;
+    border-radius: 6px;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    cursor: pointer;
+    box-shadow: 0 2px 0 0 rgb(55 59 63 / 50%);
+}
